@@ -1,3 +1,132 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+html {
+	margin: 0 auto;
+	width: 876px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+
+
+h1 {
+	font-size: 60px;
+	padding: 50px;
+	text-align: left;
+}
+
+#startbutton {
+	margin: 10px;
+	color: black;
+	border: 1px solid black;
+	display: inline;
+	text-align: center;
+	padding: 10px;
+
+
+}
+
+.div {
+padding: 10px;
+border: 10px;
+
+}
+
+.side-side {
+	display: flex;
+	margin: 10px;
+
+}
+
+.second {
+	margin-bottom: 30px;
+}
+
+.middle-img {
+	margin: 10px 0 10px 0;
+
+}
+
+.top-image {
+	width: 40%;
+
+	
+
+
+}
+.logo {
+	text-align: center;
+
+}
+.center {
+	text-align:center;
+}
+
+.head-section {
+	text-align: center;
+}
+
+nav {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+header {
+	display: flex; 
+	justify-content: space-between;
+
+}
+.header1 {
+	width: 40%;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0 35px 0;
+	
+}
+footer {
+	padding: 20px;
+	text-align: center;
+}
 
 
