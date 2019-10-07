@@ -152,8 +152,12 @@ a {
 
 @media (max-width:800px) {
     .navigation {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         background-color:red;
+        
+      
+
     }
 
     @media (max-width:800px) {
@@ -204,7 +208,8 @@ a {
     }
     .logo {
         display: flex;
-        justify-content: center;
+        margin: 0 auto;
+        padding-top: 10px;
 
 
     }
