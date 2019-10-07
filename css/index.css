@@ -154,7 +154,7 @@ a {
     .navigation {
         display: flex;
         flex-direction: column-reverse;
-        background-color:red;
+        
         
       
 
@@ -165,7 +165,7 @@ a {
     @media (max-width:800px) {
     }
     .side-side{
-        background: yellow;
+        
         border-top: 2px black solid;
         padding-top: 20px;
         border-bottom: 2px black solid;
@@ -223,7 +223,7 @@ a {
     @media (max-width:800px) {
     }
     .head-section {
-        border: 1px green solid;
+        
         display:flex;
         align-items:center;
         flex-direction:column;
@@ -235,7 +235,7 @@ a {
     }
         
     .innovation {
-        border: 1px red solid;
+        
         text-align: center;
     }
 
@@ -252,6 +252,4 @@ a {
     
         
     
-   
-   
-   
+}
