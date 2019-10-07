@@ -160,13 +160,14 @@ a {
     }
     #startbutton{
         background: blue;
-        margin: 0px 0px 0px 299px;
+        margin: 0px 0px 0px 310px;
         width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
 
     }
+
 
     @media (max-width:800px) {
     }
@@ -178,3 +179,34 @@ a {
         padding-bottom: 10px;
 
     }
+
+
+    @media (max-width:800px) {
+    }
+    .hide {
+        display: none;
+
+    }
+
+    @media (max-width:800px) {
+    }
+    .space {
+        display: flex;
+        justify-content: center;
+        width: 85%;
+        justify-content: space-between;
+        padding-left: 40px;
+
+
+    }
+
+    @media (max-width:800px) {
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+
+
+    }
+    
+   
