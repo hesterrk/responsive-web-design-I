@@ -147,11 +147,7 @@ footer {
 
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    
-}
+
 
 .innovation {
     text-align: center;
@@ -205,10 +201,11 @@ a {
     .hide {
         display: none;
 
-    }
+    
+}
 
     @media (max-width:800px) {
-    }
+    
     .space {
         display: flex;
         justify-content: center;
@@ -219,9 +216,10 @@ a {
     
 
     }
+}
 
     @media (max-width:800px) {
-    }
+    
     .logo {
         display: flex;
         margin: 0 auto;
@@ -230,23 +228,25 @@ a {
 
 
     }
+}
     
    
         
 
 
     @media (max-width:800px) {
-    }
+    
     .middle-img {
         width: 85%;
         padding-left: 50px;
         
     }
+}
         
         
         
     @media (max-width:800px) {
-    }
+    
     .head-section {
         
         display:flex;
@@ -258,6 +258,7 @@ a {
 
         
     }
+}
         
     .innovation {
         
@@ -267,12 +268,13 @@ a {
 
         
     @media (max-width:800px) {
-    }
+    
     #startbutton{
         padding-top: 10px;
         padding-right: 40px;
         padding-left:40px;
     }
+}
     
     
         
@@ -280,20 +282,35 @@ a {
 }
 
 @media (max-width:800px) {
-}
+
 html {
     margin: 0 auto;
 	width: 800px;
 }
+}
 
 @media (max-width:800px) {
-}
+
 .contactadress {
     padding-left: 50px;
 }
+}
 
 
 
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+@media  (max-width: 500px) {
+    .navigation {
+        color: red;
+        
+    }
+
+}
 
 
 
