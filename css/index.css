@@ -246,23 +246,7 @@ a {
 
 
 
-    
-    
 
-
-
-
-  
-
-
-  
-
-   
-        
-
-
-      
-        
         
   
         
@@ -272,17 +256,14 @@ a {
     }
 
 
-        
-
     
-
 
 @media (max-width:500px) {
     .container {
        width: 100%;
     }
     html {
-        background: red;
+        color: red;
     }
 }
 
