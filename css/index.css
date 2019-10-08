@@ -297,14 +297,28 @@ a {
         padding-top: 5px;
         align-content: flex-start;
         height: 50px;
-        
-        
+      
        
     }
 
+    .innovation {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border: 1px red solid;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+         }
+
+         .header1 {
+             padding-top 0px;
+         }
 
 
 
+
+         
 
 
 }
