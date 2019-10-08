@@ -263,8 +263,22 @@ a {
        width: 100%;
     }
     html {
-        color: red;
+        color: pink;
+        margin: 0 auto;
+	    width: 500px;
+
     }
+    .logo {
+        background: blue;
+        display: flex;
+        align-items: flex-start;
+    }
+
+
+
+
+
+
 }
 
 
