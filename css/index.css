@@ -274,6 +274,34 @@ a {
         align-items: flex-start;
     }
 
+    .space {
+        border: 1px pink solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+       height: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+
+   
+    .space a  {
+        border-bottom: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        align-content: flex-start;
+        height: 50px;
+        
+        
+       
+    }
+
 
 
 
