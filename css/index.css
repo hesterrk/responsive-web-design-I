@@ -263,19 +263,16 @@ a {
        width: 100%;
     }
     html {
-        color: pink;
         margin: 0 auto;
 	    width: 500px;
 
     }
     .logo {
-        background: blue;
         display: flex;
         align-items: flex-start;
     }
 
     .space {
-        border: 1px pink solid;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -305,7 +302,6 @@ a {
         display: flex;
         justify-content: center;
         text-align: center;
-        border: 1px red solid;
         padding-left: 100px;
         padding-right: 100px;
         
