@@ -312,7 +312,6 @@ a {
          }
 
          .side-side {
-             background: red;
              display: flex;
              flex-direction: column;
 
