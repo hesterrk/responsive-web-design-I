@@ -64,6 +64,10 @@ h1 {
 
 }
 
+.features {
+    margin-right: 20px;
+}
+
 .div {
 padding: 10px;
 border: 10px;
@@ -78,8 +82,17 @@ border: 10px;
 
 }
 
+.last {
+    margin-right: 20px;
+}
+
+.product {
+    margin-right: 20px;
+}
+
 .second {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+
 }
 
 .middle-img {
@@ -305,7 +318,7 @@ a {
       
        
     }
-    
+
 
     .innovation {
         display: flex;
