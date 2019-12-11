@@ -64,6 +64,10 @@ h1 {
 
 }
 
+.features {
+    margin-right: 20px;
+}
+
 .div {
 padding: 10px;
 border: 10px;
@@ -78,8 +82,17 @@ border: 10px;
 
 }
 
+.last {
+    margin-right: 20px;
+}
+
+.product {
+    margin-right: 20px;
+}
+
 .second {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+
 }
 
 .middle-img {
@@ -259,6 +272,14 @@ a {
     
 
 @media (max-width:500px) {
+
+    @keyframes pulse {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      }
+
     .container {
        width: 100%;
     }
@@ -298,17 +319,27 @@ a {
        
     }
 
+
     .innovation {
         display: flex;
         justify-content: center;
         text-align: center;
         padding-left: 100px;
         padding-right: 100px;
+      
+    
+
         
          }
-
+         
+         #startbutton {
+            animation-name: pulse;
+            animation-duration: 10s;
+         }
          .header1 {
-             padding-top 0px;
+             padding-top: 0px;
+             
+          
          }
 
          .side-side {
@@ -322,10 +353,14 @@ a {
              padding-right: 5px;
          }
 
+        
+
 
 
 }
 
 
+  
+  
 
 
